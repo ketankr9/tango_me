@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load staticfiles %}
 <html>
 <head>
 <title>Rango</title>
@@ -10,5 +11,7 @@
 <h2>Message {{boldmessage }}</h2><br/>
 {{ count }}<br/>
 <a href="/rango/about">About</a><br/>
+<br/>
+<img src="{% static "images/mini.jpg" %}" alt="minions" />
 </body>
 </html>
